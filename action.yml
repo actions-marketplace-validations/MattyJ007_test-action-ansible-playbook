@@ -1,4 +1,4 @@
-name: Run Ansible playbook
+name: Test Run Ansible playbook
 description: Execute Ansible playbook on selected hosts
 branding:
   color: red
