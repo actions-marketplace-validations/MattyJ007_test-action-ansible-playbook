@@ -24,6 +24,9 @@ async function main() {
         }
 
         console.log('Current Working Dir:', process.cwd())
+        fs.readdirSync('.').forEach(file => {
+          console.log(file);
+        });
 
         if (directory) {
             process.chdir(directory)
