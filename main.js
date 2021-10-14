@@ -23,6 +23,8 @@ async function main() {
             cmd.push(options.replace(/\n/g, " "))
         }
 
+        console.log('Current Working Dir:', process.cwd())
+
         if (directory) {
             process.chdir(directory)
             core.saveState("directory", directory)
